@@ -26,7 +26,7 @@
         </inertial>
         <visual>
             <geometry>
-            <mesh filename="file://$(find hb_description)/models/holonomic_bot/meshes/roller.stl"/>
+            <mesh filename="file:///home/deepanshu/My_ROS/src/ros_bot/hb_description/models/holonomic_bot/meshes/roller.stl"/>
             </geometry>
             <material name="roller_material">
             <color rgba="0.1 0.1 0.1 1"/>
@@ -34,7 +34,7 @@
         </visual>
         <collision>
             <geometry>
-            <mesh filename="file://$(find hb_description)/models/holonomic_bot/meshes/roller.stl"/>
+            <mesh filename="file:///home/deepanshu/My_ROS/src/ros_bot/hb_description/models/holonomic_bot/meshes/roller.stl"/>
             </geometry>
         </collision>
         </link>
@@ -55,7 +55,7 @@
         </inertial>
         <visual>
             <geometry>
-            <mesh filename="file://$(find hb_description)/models/holonomic_bot/meshes/rim.stl"/>
+            <mesh filename="file:///home/deepanshu/My_ROS/src/ros_bot/hb_description/models/holonomic_bot/meshes/rim.stl"/>
             </geometry>
             <material name="rim_${name}_material">
             <color rgba="${color} 1"/>
@@ -63,7 +63,7 @@
         </visual>
         <collision>
             <geometry>
-            <mesh filename="file://$(find hb_description)/models/holonomic_bot/meshes/rim.stl"/>
+            <mesh filename="file:///home/deepanshu/My_ROS/src/ros_bot/hb_description/models/holonomic_bot/meshes/rim.stl"/>
             </geometry>
         </collision>
         </link>
@@ -99,14 +99,14 @@
         <visual>
             <origin xyz="0 0 0" rpy="0 0 0" />
             <geometry>
-                <mesh filename="file://$(find hb_description)/models/holonomic_bot/meshes/bot.dae"/>
+                <mesh filename="file:///home/deepanshu/My_ROS/src/ros_bot/hb_description/models/holonomic_bot/meshes/bot.dae"/>
             </geometry>
         </visual>
 
         <collision name="base_link_collision">
             <origin xyz="0 0 0.026" rpy="0 0 0" />
             <geometry>
-                <mesh filename="file://$(find hb_description)/models/holonomic_bot/meshes/bot.dae"/>
+                <mesh filename="file:///home/deepanshu/My_ROS/src/ros_bot/hb_description/models/holonomic_bot/meshes/bot.dae"/>
             </geometry>
         </collision>
 
